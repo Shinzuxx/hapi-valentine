@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine's Letter</title>
+
+    
+</head>
+<body>
+    <div class="card" onclick="showMessage()">
+        <div class="heart">❤</div>
+        <h2>Happy Valentine's Day!</h2>
+        <p class="message">To my baby,
+            <br><br>
+            From the moment you entered my life, you have been my greatest joy. Your smile lights up my world, and your love fills my heart with warmth. Every day with you is a blessing, and I cherish every moment we share. 
+            <br><br>
+            I look forward to our future together, to all the laughter, adventures, and love we have yet to experience. You are my heart, my soul, and my everything.
+            <br><br>
+            Forever yours,
+            <br>
+            shin pogi❤️
+        </p>
+    </div>
+
+    <script>
+        function showMessage() {
+            var message = document.querySelector('.message');
+            if (message.style.display === 'none') {
+                message.style.display = 'block';
+            } else {
+                message.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
